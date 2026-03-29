@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WQLSZJKB');</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff">
+  
+  <title>RoosyCozy 루지코지 | 선생님을 위한 지능형 기록 보호 및 사건 재구성 플랫폼</title>
+  <meta name="description" content="흩어진 상담 기록과 학급 일지를 입체적으로 연결하여 완벽한 타임라인을 만듭니다. 선생님의 기억을 논리적으로 방어하는 RoosyCozy." />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQLSZJKB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <canvas id="flowCanvas"></canvas>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span></span> RoosyCozy
+      </a>
+      <div class="nav-actions">
+        <a href="https://jimdungyyi.github.io/down/" class="nav-btn-solid">바로 사용해보기</a>
+        <a href="https://architectrc.com/" class="nav-btn-architect">
+          <span class="code-icon">&lt;/&gt;</span> 개발자 모임
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero hero-light">
+      <div class="hero-grid-bg"></div> <div class="hero-glow-bg-light"></div>
+      
+      <div class="container hero-container-center text-center">
+        <div class="hero-text reveal">
+          <span class="kicker eng kicker-light">Intelligent Defense System v4.0</span>
+          <h1 class="hero-title">
+            이미 전국 1,000명 이상의 선생님이<br>
+            <span class="text-sakura">선택했습니다.</span>
+          </h1>
+          <p class="hero-desc">
+            파편화된 기록을 알아서 연결하는 AI로,<br class="pc-only">
+            <strong>가장 안전한 교실</strong>을 만들어보세요.
+          </p>
+
+          <div class="hero-trust-badge reveal">
+            <span class="tb-icon">🛡️</span>
+            <span class="tb-title eng">Military-Grade Integrity</span>
+            <span class="tb-line"></span>
+            <span class="tb-desc">전자서명 기반 위변조 검증 기술 탑재</span>
+          </div>
+
+          <div class="btn-group justify-center">
+            <a href="#solution" class="btn-text btn-text-dark">작동 원리 보기 ↓</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal mt-60">
+          <div class="hero-app-showcase-wrapper">
+            
+            <div class="hero-float-card float-1">📞 학부모 통화 기록</div>
+            <div class="hero-float-card float-2">✨ 최적화 타임라인 분석</div>
+            <div class="hero-float-card float-3">📄 제3자 제출용 리포트</div>
+            
+            <div class="hero-app-showcase">
+              <img src="로지코지 메인.png" alt="RoosyCozy 메인 홈 피드">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="legal-partner" class="section legal-dark">
+      <div class="container">
+        <div class="partner-grid">
+          
+          <div class="partner-photo reveal">
+            <div class="photo-frame">
+              <img src="변호사1.jpg" alt="학교폭력 전문 전서현 변호사" loading="lazy">
+              <div class="photo-deco"></div>
+            </div>
+          </div>
+
+          <div class="partner-info reveal">
+            <span class="kicker kicker-light eng text-white" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2);">ROOSYCOZY OFFICIAL LEGAL ADVISOR</span>
+            <h2 class="sec-title text-white" style="margin-bottom: 16px; font-size: clamp(2rem, 3.5vw, 2.8rem);">
+              선생님의 무결한 기록을 지키는<br>
+              <span class="text-sakura">전서현 변호사</span>가 함께합니다.
+            </h2>
+            <p class="sec-desc text-white-80" style="font-size: 1.1rem; margin-bottom: 30px; opacity: 0.8;">
+              RoosyCozy가 증명하는 무결한 기록을 바탕으로, 학교폭력 및 형사 소송에서 입증된 전문 법률 자문이 선생님의 안전을 이중으로 보장합니다.
+            </p>
+
+            <div class="lawyer-profile lawyer-profile-dark">
+              <h3 class="lawyer-name text-white">전서현 변호사</h3>
+              <div class="lawyer-history">
+                <ul>
+                  <li><strong>現)</strong> 대한변호사협회 등록 <strong>학교폭력</strong>전문변호사</li>
+                  <li><strong>現)</strong> 대한변호사협회 등록 <strong>형사</strong>전문변호사</li>
+                  <li><strong>現)</strong> 교육청 <strong>학교폭력심의위원회</strong> 위원</li>
+                  <li><strong>現)</strong> 대법원 국선변호인 / 국가인권위원회 전문상담위원</li>
+                </ul>
+                <ul class="lawyer-edu text-white-60" style="opacity: 0.6;">
+                  <li>한양대학교 정책학과 졸업 / 서울시립대학교 법학전문대학원 석사</li>
+                  <li>학교폭력 피해학생 조력, 중학생 가해학생 8호(강제전학) 등 다수 소송 수행</li>
+                </ul>
+              </div>
+            </div>
+
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase-features">
+      <div class="container">
+        
+        <div class="feature-row reveal">
+          <div class="feature-text">
+            <span class="step-kicker">STEP 01</span>
+            <h2 class="feature-title">해시 기반<br>기록 보존</h2>
+            <p class="feature-desc">작성하신 모든 기록은 <strong>SHA-256 해시 알고리즘</strong>을 통해 안전하게 암호화되어 저장됩니다.</p>
+            <ul class="feature-list-mini">
+              <li><span class="check">✓</span> 데이터 임의 수정 및 훼손 방지</li>
+              <li><span class="check">✓</span> 객관적인 소명 근거 자료로 활용</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="floating-badge badge-1">🔒 원본 데이터 보호</div>
+            <div class="video-case case-1">
+              <div class="mockup-window">
+                <div class="mockup-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                <img src="1.무결정해시기반 증거보존.png" alt="해시 기반 기록 보존" loading="lazy" decoding="async">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row reveal">
+          <div class="feature-text">
+            <span class="step-kicker">STEP 02</span>
+            <h2 class="feature-title">알고리즘 기반<br>사건 정리</h2>
+            <p class="feature-desc">파편화되어 흩어진 여러 기록들을 <strong>최적화 알고리즘</strong>이 분석하여 하나의 맥락으로 연결합니다.</p>
+            <ul class="feature-list-mini">
+              <li><span class="check">✓</span> 인물 및 시간순 맥락 자동 파악</li>
+              <li><span class="check">✓</span> 복잡한 사안도 한눈에 보이는 타임라인</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="floating-badge badge-2">✨ AI 흐름 분석 중...</div>
+            <div class="video-case case-2">
+              <div class="mockup-window">
+                <div class="mockup-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                <img src="2.최적화알고리즘 기반 사건정리.png" alt="알고리즘 기반 사건 정리" loading="lazy" decoding="async">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row reveal">
+          <div class="feature-text">
+            <span class="step-kicker">STEP 03</span>
+            <h2 class="feature-title">제출용 증빙<br>보고서 출력</h2>
+            <p class="feature-desc">수집된 기록을 바탕으로 <strong>정형화된 PDF 문서</strong>를 생성하여 서류 작성의 번거로움을 덜어줍니다.</p>
+            <ul class="feature-list-mini">
+              <li><span class="check">✓</span> 교육청 및 내부 보고용 양식 지원</li>
+              <li><span class="check">✓</span> 타임스탬프 이력이 포함된 공신력</li>
+            </ul>
+            <div class="seal-badge mt-20">🔒 타임스탬프 이력 포함</div>
+          </div>
+          <div class="feature-visual">
+            <div class="floating-badge badge-3">📄 문서 작성 자동화</div>
+            <div class="video-case case-3">
+              <div class="mockup-window">
+                <div class="mockup-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                <img src="3.PDF 보고서 뽑기.png" alt="제출용 증빙 보고서 출력" loading="lazy" decoding="async">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="story" class="section bg-subtle">
+      <div class="container">
+        <div class="grid-2">
+          <div class="reveal">
+            <span class="sec-subtitle">INTELLIGENT DEFENSE SYSTEM</span>
+            <h2 class="sec-title">
+              선생님의 평온한 밤을 위한<br>
+              가장 든든한 기록 방어막.
+            </h2>
+            <p class="sec-desc" style="margin-bottom: 30px;">
+              "학부모 전화벨만 울려도 심장이 내려앉는 기분, 아시나요?<br>
+              이제 불안함은 내려놓으세요.<br>
+              선생님이 오직 아이들에게만 집중하실 수 있도록,<br>
+              <strong>RoosyCozy가 선생님의 모든 기록을 논리적으로 방어합니다.</strong>"
+            </p>
+            
+            <div class="indi-badge">
+              🛡️ 선생님을 위한 지능형 사건 재구성 솔루션
+            </div>
+          </div>
+
+          <div class="quote-card reveal">
+            <div class="quote-text serif">
+              "저도 불안장애가 있어 깊이 공감합니다.<br>
+              나중에 일이 터지더라도 <b>저의 무고함을 증명해 줄</b><br>
+              <b>든든한 방어막</b>이 되어줄 것 같아 기대됩니다."
+            </div>
+            <div style="font-weight: 500; color: var(--text-muted); margin-top: 20px; display: flex; align-items: center; gap: 8px;">
+              <span style="background:#E6E6FA; width:24px; height:24px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:0.8rem;">🟣</span>
+              <span>연XX콩 선생님 (25.01.19)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solution" class="section">
+      <div class="container">
+        <div class="split-layout">
+          <div class="split-visual reveal">
+            <div class="logic-diagram">
+              <svg class="svg-connect">
+                <line x1="20%" y1="30%" x2="50%" y2="50%" />
+                <line x1="80%" y1="50%" x2="50%" y2="50%" />
+                <line x1="20%" y1="70%" x2="50%" y2="50%" />
+              </svg>
+              <div class="node n1">학생 A 상담</div>
+              <div class="node n2">학부모 전화</div>
+              <div class="node n3">보건실 기록</div>
+              <div class="node n-center">사건 #2024-01</div>
+            </div>
+          </div>
+
+          <div class="split-content reveal">
+            <span class="sec-subtitle">SOLUTION : ONTOLOGY TRACKING</span>
+            <h2 class="sec-title">기록이 스스로<br>맥락을 찾아냅니다.</h2>
+            <p class="sec-desc">
+              RoosyCozy의 <strong>온톨로지(Ontology) 엔진</strong>은 선생님이 입력한 단순한 메모들 사이에서 '누가', '언제', '무엇을', '어떻게' 연결되는지를 분석합니다.
+            </p>
+            
+            <div class="feature-list">
+              <div class="f-item">
+                <strong>자동 타임라인 생성:</strong>
+                <p>특정 학생 이름을 클릭하면, 그 학생과 관련된 1년 치의 상담, 갈등, 학부모 통화가 시간순으로 정렬됩니다.</p>
+              </div>
+              <div class="f-item">
+                <strong>인과관계 추적:</strong>
+                <p>오늘 발생한 사건의 원인이 지난달의 사소한 다툼에 있었음을 시스템이 감지하고 연결해줍니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech-proof" class="section bg-subtle">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 60px;">
+          <span class="sec-subtitle">WORLD-CLASS AI TECHNOLOGY</span>
+          <h2 class="sec-title">독보적인 최적화 알고리즘</h2>
+          <p class="sec-desc">
+            RoosyCozy의 핵심 엔진은 <strong>실제 학회에서 입증된 기술</strong>입니다.<br>
+            합성 데이터(Synthetic Data) 기술로 선생님의 기록을 가장 강력한 방어 논리로 재구성합니다.
+          </p>
+        </div>
+        
+        <div class="tech-proof-grid reveal">
+          <div class="papers-visual-real">
+            <div class="real-paper p-back">
+              <img src="paper_sub.png" alt="Sub Paper" class="paper-img" loading="lazy" decoding="async">
+              <div class="blur-cover" style="top: 18%; height: 8%;"></div>
+            </div>
+            <div class="real-paper p-front">
+              <img src="paper_main.png" alt="Main Paper" class="paper-img" loading="lazy" decoding="async">
+              <div class="blur-cover" style="top: 22%; height: 9%;"></div>
+              <div class="p-stamp-real">
+                <span>VERIFIED</span>
+                <small>ICLR 2024</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-desc-box">
+            <div class="tech-point">
+              <div class="tp-icon">🧬</div>
+              <div class="tp-text">
+                <h3>합성 데이터(Synthetic Data) 증강</h3>
+                <p>부족한 초기 기록 데이터를 AI가 스스로 증폭시켜, 빈틈없는 사건 타임라인을 예측하고 구성합니다.</p>
+              </div>
+            </div>
+            <div class="tech-point">
+              <div class="tp-icon">🎯</div>
+              <div class="tp-text">
+                <h3>최적화 전술 알고리즘</h3>
+                <p>수집된 증거들 사이의 논리적 연결 고리를 찾아내어, 교육청 소명 시 가장 유리한 대응 논리를 도출합니다.</p>
+              </div>
+            </div>
+            <div class="tech-quote">
+              "세계적 권위의 표현 학습 국제 학회(ICLR)에서<br>그 효과와 기술적 신뢰성을 인정받았습니다."
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="integrity" class="section integrity-dark">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 60px;">
+          <span class="sec-subtitle" style="color: #ffb6c1; text-shadow: 0 0 10px rgba(255, 182, 193, 0.5);">MILITARY-GRADE INTEGRITY</span>
+          <h2 class="sec-title text-glow-sakura" style="margin-bottom: 20px;">
+            선생님의 기록을<br>완벽하게 봉인합니다.
+          </h2>
+          <p class="sec-desc text-muted-light" style="max-width: 650px; margin: 0 auto;">
+            단순한 메모장이 아닙니다. RoosyCozy는 입력된 모든 기록을 암호화하고<br class="pc-only">
+            위변조를 검증하여 <strong>안전한 디지털 증거</strong>로 만듭니다.
+          </p>
+        </div>
+
+        <div class="integrity-visual reveal">
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="terminal-title">RoosyCozy Security Engine</span>
+            </div>
+            <div class="terminal-body mono">
+              <div class="typing-line">> Generating Signature Key... <span class="text-success">[OK]</span></div>
+              <div class="typing-line">> Encrypting Record Data... <span class="text-success">[OK]</span></div>
+              <div class="typing-line">> Sealing with SHA-256 Hash...</div>
+              <div class="hash-output blink">a13c871721a45cf620f4cdafa2c2ac1f7bf1796375a0ebdb6765f57d70f51741</div>
+              <div class="lock-status"><span class="lock-icon">🔒</span> SECURELY SEALED</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-3 reveal mt-60">
+          <div class="integrity-card">
+            <div class="i-icon">🔑</div>
+            <h3>전자서명 기반 봉인</h3>
+            <p>단순 저장이 아닙니다. 기기 또는 서명키를 기준으로 기록을 강력하게 봉인하고 검증하는 구조를 갖췄습니다.</p>
+          </div>
+          <div class="integrity-card">
+            <div class="i-icon">🛡️</div>
+            <h3>기록 위변조 검증</h3>
+            <p>메모나 기록이 저장된 뒤 단 한 글자라도 임의로 바뀌었는지 즉시 확인합니다. 기록 신뢰성의 가장 핵심적인 방패입니다.</p>
+          </div>
+          <div class="integrity-card">
+            <div class="i-icon">⏱️</div>
+            <h3>수정 이력(Revision) 추적</h3>
+            <p>
+              최초 작성본과 이후 수정본이 덮어씌워지지 않고 리비전 형태로 연결됩니다.<br>
+              언제 무엇이 바뀌었는지 증빙할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-dark">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom:60px;">
+          <h2 class="sec-title" style="color:#fff;">입체적 분해 기술의 핵심</h2>
+          <p class="sec-desc" style="opacity:0.7; color: #fff;">
+            복잡한 기술이지만, 사용은 메모장처럼 간편합니다.
+          </p>
+        </div>
+
+        <div class="grid-4 reveal">
+          <div class="tech-item">
+            <div class="tech-num">01</div>
+            <h3>Atomizing</h3>
+            <p>기록을 문장 단위의 'Fact'로 잘게 쪼개어 데이터베이스화 합니다.</p>
+          </div>
+          <div class="tech-item">
+            <div class="tech-num">02</div>
+            <h3>Layering</h3>
+            <p>쪼개진 사실 위에 감정, 규정 레이어를 겹쳐 입체적으로 분석합니다.</p>
+          </div>
+          <div class="tech-item">
+            <div class="tech-num">03</div>
+            <h3>Tracing</h3>
+            <p>사건의 시발점(Root Cause)을 역추적하여 빈틈없는 논리를 만듭니다.</p>
+          </div>
+          <div class="tech-item">
+            <div class="tech-num">04</div>
+            <h3>Reporting</h3>
+            <p>교육청 제출용 보고서 양식에 맞춰 자동으로 내용을 채워넣습니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="handoff" class="section">
+      <div class="container">
+        <div class="grid-2">
+          <div class="reveal">
+            <span class="sec-subtitle">STANDARD HANDOFF</span>
+            <h2 class="sec-title">
+              인수인계의 언어를<br>바꿉니다.
+            </h2>
+            <p class="sec-desc" style="margin-bottom: 24px;">
+              "선생님, 종이 뭉치 말고 <b>RoosyCozy 파일</b>로 주세요."
+            </p>
+            <p>
+              완벽하게 정리된 기록은 다음 1년의 평화를 보장합니다.
+              클릭 한 번으로 <strong>법률 전문가와 AI에게 동시에</strong> 데이터를 동기화하세요.
+            </p>
+          </div>
+          <div class="reveal">
+            <div class="network-visual-impact">
+              <svg class="connect-svg" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                <path class="path-line" d="M 50 100 L 200 100" />
+                <path class="path-line" d="M 200 100 L 350 50" />
+                <path class="path-line" d="M 200 100 L 350 150" />
+              </svg>
+              
+              <div class="user-node source-node">
+                 <span style="font-size:2rem;">👩🏻‍🏫</span><br>올해의 나
+              </div>
+              
+              <div class="packet p1 mono">RC File</div>
+              <div class="packet p2 mono">RC File</div>
+
+              <div class="target-nodes">
+                <div class="user-node target-node t1">
+                  <span style="font-size:1.8rem;">⚖️</span><br>법률전문가
+                </div>
+                <div class="user-node target-node t2">
+                   <span style="font-size:1.8rem;">🤖</span><br>인공지능(LLM)
+                </div>
+              </div>
+            </div>
+            <div class="text-center mono" style="font-size:0.8rem; color:#aaa; margin-top:20px;">Multi-Channel Encrypted Sync</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="philosophy-wrapper reveal">
+          <div class="philosophy-content">
+            <p class="ph-text serif">
+              "처음에는 혹시나 하는 마음에 불안해서 기록을 시작했습니다.<br>
+              그런데 기록이 정리되니 신기하게도 두려움이 사라지더군요.<br><br>
+              <strong>RoosyCozy는 싸우기 위한 무기가 아닙니다.<br>
+              내일 다시 교실 문을 열고 아이들을 마주할 '용기'입니다.</strong>"
+            </p>
+            <div class="ph-author">
+              <span>경기도 7년 차 초등교사의 일기 중</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bottom-cta">
+      <div class="container text-center reveal">
+        <h2 class="cta-title">이제, 평온한 퇴근길을 경험해 보세요.</h2>
+        <p class="cta-desc">선생님은 아이들에게만 집중하세요. 방어는 루지코지가 하겠습니다.</p>
+        <div class="btn-group justify-center mt-30">
+          <a href="https://jimdungyyi.github.io/down/" class="btn-primary btn-glow" style="padding: 20px 48px; font-size: 1.2rem;">루지코지 바로 사용해보기</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="f-info">
+        <div class="logo" style="margin-bottom:10px; font-size:1.1rem;"><span></span> RoosyCozy</div>
+        <p>
+          Logic Driven Defense.<br>
+          문의: support@roosycozy.com
+        </p>
+      </div>
+      <div class="f-links">
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+      </div>
+    </div>
+    <div class="container text-center" style="font-size:0.8rem; color:#aaa; padding-bottom:40px;">
+      © 2026 RoosyCozy Inc. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // 1. Reveal Animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('active');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // 2. Background Particles
+    const canvas = document.getElementById('flowCanvas');
+    const ctx = canvas.getContext('2d');
+    let w, h, particles = [];
+
+    function resize() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    class Particle {
+      constructor() { this.reset(); }
+      reset() {
+        this.x = Math.random() * w;
+        this.y = Math.random() * h;
+        this.size = Math.random() * 2 + 1;
+        this.speedX = (Math.random() - 0.5) * 0.5;
+        this.speedY = Math.random() * 0.5 + 0.2;
+        this.color = Math.random() > 0.6 ? '#FF4F93' : '#e0e0e0'; 
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        if (this.y > h) this.y = -10;
+      }
+      draw() {
+        ctx.fillStyle = this.color;
+        ctx.globalAlpha = 0.6;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    for(let i=0; i<15; i++) particles.push(new Particle()); // 👈 15개로 확 줄임!
+    function animate() {
+      ctx.clearRect(0, 0, w, h);
+      particles.forEach(p => { p.update(); p.draw(); });
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    // 3. 500+ 카운팅 애니메이션
+    const counterObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const target = document.getElementById('count-number');
+          let count = 0;
+          const max = 1000;
+          const interval = setInterval(() => {
+            count += 30; // 🚨 한 번에 50씩 시원하게 팍팍 올라감!
+            if (count >= max) {
+              target.innerText = max;
+              clearInterval(interval);
+            } else {
+              target.innerText = count;
+            }
+          }, 30); // 🚨 25밀리초마다 갱신 (약 0.5초 만에 1000 도달!)
+          observer.unobserve(entry.target); 
+        }
+      });
+    }, { threshold: 0.1 }); 
+    
+    const impactSection = document.querySelector('.impact-banner');
+    if (impactSection) counterObserver.observe(impactSection);
+  </script>
+</body>
+</html>
